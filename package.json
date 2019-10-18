@@ -1,0 +1,19 @@
+{
+  "name": "rushercrack",
+  "version": "1.0.0",
+  "description": "rUsHeR HACk nO bACKdOOr!1 ",
+  "main": "rushercrack.js",
+  "scripts": {
+    "test": "node rushercrack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7OU/rushercrack.git"
+  },
+  "author": "Evan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7OU/rushercrack/issues"
+  },
+  "homepage": "https://github.com/7OU/rushercrack#readme"
+}
