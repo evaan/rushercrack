@@ -1,6 +1,6 @@
 # Rushercrack, the free open-source method to use Rusherhack for free
 
-![Rushercrack on top](http://jelbrek.icu/i/TqKYHW5C.png)
+![Rushercrack on top](https://raw.githubusercontent.com/7OU/rushercrack/master/rushercrack.png)
 
 ## Requirements
 - Windows, Linux, or MacOS
