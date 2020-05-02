@@ -1,5 +1,15 @@
-console.log("Initializing Rushercrack...");
-console.log("Once initialized, Rushercrack will being to exploit Rusherhack ports.");
+process.stdout.write('\033c');
+var plus = "";
+if (process.argv[2] === '--plus') plus = "+";
+if (process.argv[2] === '--help') {
+	console.log("RusherCrack 1.1");
+	console.log("==================");
+	console.log("--plus | Use RusherCrack in plus mode");
+	process.exit(1);
+}
+
+console.log(`Initializing Rushercrack${plus}...`);
+console.log(`Once initialized, Rushercrack${plus} will being to exploit Rusherhack${plus} ports.`);
 console.log("This process may take a while on the first run.");
 setTimeout(crack, 4500);
 
@@ -17,7 +27,7 @@ function findPorts()
 		log(Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15));
 		
 		numPorts++;
-		if(numPorts < 25)
+		if(numPorts < Math.floor( Math.random() * 150 + 1))
 		{
 			findPorts();
 		}
