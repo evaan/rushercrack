@@ -1,4 +1,4 @@
-# Rushercrack, the free open-source method to use Rusherhack for free
+# Rushercrack, the free open-source method to use Rusherhack(+) for free
 
 ![Rushercrack on top](http://jelbrek.icu/i/TqKYHW5C.png)
 
