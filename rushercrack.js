@@ -2,7 +2,7 @@ process.stdout.write('\033c');
 var plus = "";
 if (process.argv[2] === '--plus') plus = "+";
 if (process.argv[2] === '--help') {
-	console.log("RusherCrack 1.1");
+	console.log("RusherCrack 1.2");
 	console.log("==================");
 	console.log("--plus | Use RusherCrack in plus mode");
 	process.exit(1);
@@ -44,6 +44,7 @@ function findPorts()
 
 function injectPayload()
 {
+	console.log("Payload injector initialization.");
 	setTimeout(function ()
 	{
 		log(Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15));
