@@ -18,5 +18,9 @@ function Main() {
   console.log("RusherCrack 1.1");
 	console.log("==================");
   console.log("Deobfuscating RusherHack and RusherHack+ with DeNefuscator method...");
+  DooDooDeobf();
+  TransferJars();
+  RadonDeobf();
+  RadonDeobfPlus();
 }
 Main();
