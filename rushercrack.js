@@ -9,7 +9,7 @@ if (process.argv[2] === '--help') {
 }
 
 console.log(`Initializing Rushercrack${plus}...`);
-console.log(`Once initialized, Rushercrack${plus} will being to exploit Rusherhack${plus} ports.`);
+console.log(`Once initialized, Rushercrack${plus} will begin to exploit Rusherhack${plus} ports.`);
 console.log("This process may take a while on the first run.");
 setTimeout(crack, 4500);
 
