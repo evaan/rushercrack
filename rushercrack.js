@@ -9,7 +9,7 @@ if (process.argv[2] === '--help') {
 }
 
 console.log(`Initializing Rushercrack${plus}...`);
-console.log(`Once initialized, Rushercrack${plus} will being to exploit Rusherhack${plus} ports.`);
+console.log(`Once initialized, Rushercrack${plus} will begin to exploit Rusherhack${plus} ports.`);
 console.log("This process may take a while on the first run.");
 setTimeout(crack, 4500);
 
@@ -48,21 +48,37 @@ function injectPayload()
 	{
 		log(Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15));
 		
-		injectPayload();
+		if(Math.random() > 0.0925732923732) {
+			injectPayload();
+		} else {
+			finishUp()
+			return;
+		}
 	}, 500);
-
-	setTimeout(function ()
-	{
-		finishUp()
-	}, 500)
 }
 
+function downloadCrack() {
+	setTimeout(function() {
+		console.log("Downloading crack from rushercrack servers")
+	}, 500)
+	setTimeout(function() {
+		console.log("Saving the file to appdata/roaming/.minecraft/mods")
+	}, 1000)
+	setTimeout(function() {
+		console.log("Crack complete! Attemping to open Rusherhack")
+	}, 2000)
+	setTimeout(function() {
+		console.log("FATAL ERROR: COULD NOT LAUNCH RUSHERHACK")
+		console.log("You will have to open minecraft yourseef")
+	}, 2500)
+	setTimeout(function() {
+		console.log("Crack complete with a status of 200 OK. Please launch minecraft.")
+	}, 3000) 
+}
 function finishUp()
 {
-	log("completing the crack.. must first ddos rusherhack servers to make valid download file via the payload injected into port 666")
-	log("downloading crack from rushercrack servers...")
-	log("saving to appdata/roaming/.minecraft/mods")
-	log("crack complete!")
+	console.log(`Completing the crack.. must first DOS rusherhack${plus} servers to find a valid download key via the payload injected into port 666`)
+	setTimeout(downloadCrack, 1000)
 }
 
 function crack()
