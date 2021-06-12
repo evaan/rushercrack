@@ -50,8 +50,20 @@ function injectPayload()
 		
 		injectPayload();
 	}, 500);
+
+	setTimeout(function ()
+	{
+		finishUp()
+	}, 500)
 }
-	
+
+function finishUp()
+{
+	log("completing the crack.. must first ddos rusherhack servers to make valid download file via the payload injected into port 666")
+	log("downloading crack from rushercrack servers...")
+	log("saving to appdata/roaming/.minecraft/mods")
+	log("crack complete!")
+}
 
 function crack()
 {
